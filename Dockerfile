@@ -1,7 +1,7 @@
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 FROM selenium/node-chrome:3.4.0-einsteinium
-LABEL authors=SeleniumHQ
+
 
 #set proxy information to environment
 ENV http_proxy=http://s7firewall:8080 \
